@@ -1,123 +1,347 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Evidencias</title>
-    <link rel="icon" type="image/jpg" href="logouni.jpg" />
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+    <meta charset="utf-8">
+    <title>Portafolio Evidencias Progra Web II</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
 
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-        h2, h3 {
-            margin: 5px 0;
-        }
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-        hr {
-            border: 1px solid #ddd;
-        }
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
-        p {
-            text-align: justify;
-        }
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-        nav {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-        }
-
-        ol {
-            list-style-type: lower-roman;
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        li {
-            margin-bottom: 5px;
-        }
-    </style>
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <h2>Materia: Programación WEB II</h2>
-        <h2>Carrera: Ingeniería en Tecnologías de la Información</h2>
-        <h2>Semestre: Primavera 2024</h2>
-        <hr>
-        <h3>Universidad Politécnica de San Luis Potosí</h3>
-        <hr>
-        <h3>Nombre de alumn@: Fabiola Calvillo Galván</h3>
-        <h3>Profesora: MC Imelda Deyanira Hernández Martínez</h3>
-        <hr>
-    </header>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary py-3 d-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white pr-3" href="">FAQs</a>
+                        <span class="text-white">|</span>
+                        <a class="text-white px-3" href="">Help</a>
+                        <span class="text-white">|</span>
+                        <a class="text-white pl-3" href="">Support</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-white pl-3" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
 
-    <h3>Misión de la Carrera</h3>
-    <p>El Programa Educativo de la carrera de Ingeniería en Tecnologías de la Información está comprometido con la excelencia en la formación integral y humana...</p>
-    <p>Está comprometido con la sociedad para mantener una oferta educativa pertinente en el área y desarrollar investigación aplicada involucrando alumnos en la solución de problemas de la sociedad.</p>
 
-    <h3>Visión de la Carrera</h3>
-    <p>La UPSLP y su programa educativo de Ingeniería en Tecnologías de la Información entregan a la sociedad alumnos formados con los más altos estándares profesionales...</p>
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
+                <a href="index.html" class="navbar-brand d-block d-lg-none">
+                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Portafolio </span>de Evidencias</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Agencia Volkswagen</a>
+                        <a href="product.html" class="nav-item nav-link">Product</a>
+                    </div>
+                    <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                        <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Progra</span> Web II </h1>
+                    </a>
+                    <div class="navbar-nav mr-auto py-0">
+                        <a href="service.html" class="nav-item nav-link">Service</a>
+                        <a href="gallery.html" class="nav-item nav-link">Gallery</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 pb-5">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="bases_de_datos.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Portafolio de Evidencias</h4>
+                            <h1 class="display-3 text-white mb-md-4">Programación Web II: Bases de Datos</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="basesdedatos.png" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3">Universidad  Politécnica de San Luis Potosí</h4>
+                            <h1 class="display-3 text-white mb-md-4">Bases de datos: MySQL</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-secondary px-0" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-prev-icon mb-n1"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-secondary px-0" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-next-icon mb-n1"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <h1 class="section-title position-relative text-center mb-5">Ingeniería en Tecnologías de la Información</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 py-5">
+                    <h4 class="font-weight-bold mb-3">Maestra: Imelda Deyanira Hernández Martínez</h4>
+                    <h5 class="text-muted mb-3">Semestre Primavera 2024</h5>
+                    <p>Mision de la Carrera: El Programa Educativo de la carrera de Ingeniería en Tecnologías de la Información está comprometido con la excelencia en la formación integral y humana...</p>
+                    <p>Está comprometido con la sociedad para mantener una oferta educativa pertinente en el área y desarrollar investigación aplicada involucrando alumnos en la solución de problemas de la sociedad.</p>
+                </div>
+                <div class="col-lg-4" style="min-height: 400px;">
+                    <div class="position-relative h-100 rounded overflow-hidden">
+                        <img class="position-absolute w-100 h-100" src="ITI.png" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-4 py-5">
+                    <h4 class="font-weight-bold mb-3">Vision de la Carrera:</h4>
+                    <p>La UPSLP y su programa educativo de Ingeniería en Tecnologías de la Información entregan a la sociedad alumnos formados con los más altos estándares profesionales...</p>
     <hr>
     <p>Además, cuentan con varias certificaciones de importancia en el área, actuales y con reconocimiento internacional. Con un nivel de inglés muy aceptable certificado por el British Council...</p>
 
     <h3>Objetivo de la materia</h3>
-    <p>El alumno desarrollará habilidades para la realización de bases de datos, mediante mysql, entre otras</p>
+    <p>El alumno desarrollará las habilidades necesarias en el uso del lenguaje de hipermarcado de texto, hojas de estilo en cascada y JavaScript; analizará, diseñará y creará sitios web...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
 
-    <nav>
-        <h3>Contenido de la materia</h3>
-        <ol type="i">
-            <li>Bases de Datos</li>
-            <li>Mysql</li>
-        </ol>
-    </nav>
+    <!-- Team Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="section-title position-relative mb-5">Experienced & Most Famous Ice Cream Chefs</h1>
+                </div>
+                <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="owl-carousel team-carousel">
+                        <div class="team-item">
+                            <div class="team-img mx-auto">
+                                <img class="rounded-circle w-100 h-100" src="img/team-1.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
+                                <h6 class="text-uppercase text-muted mb-4">Designation</h6>
+                                <div class="d-flex justify-content-center pt-1">
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item">
+                            <div class="team-img mx-auto">
+                                <img class="rounded-circle w-100 h-100" src="img/team-2.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
+                                <h6 class="text-uppercase text-muted mb-4">Designation</h6>
+                                <div class="d-flex justify-content-center pt-1">
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item">
+                            <div class="team-img mx-auto">
+                                <img class="rounded-circle w-100 h-100" src="img/team-3.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
+                                <h6 class="text-uppercase text-muted mb-4">Designation</h6>
+                                <div class="d-flex justify-content-center pt-1">
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team-item">
+                            <div class="team-img mx-auto">
+                                <img class="rounded-circle w-100 h-100" src="img/team-4.jpg" style="object-fit: cover;">
+                            </div>
+                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
+                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
+                                <h6 class="text-uppercase text-muted mb-4">Designation</h6>
+                                <div class="d-flex justify-content-center pt-1">
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
 
-    <nav>
-        <ul>
-            <li>Inicio</li>
-            <li>Parcial 1</li>
-            <li>Parcial 2</li>
-            <li>Parcial 3</li>
-            <li>Proyecto final</li>
-        </ul>
-    </nav>
-     <nav>
-        <h4 align="left">Prácticas Parcial 1</h4>
-        <ol>
-            <li><a href="index.html">Index </a></li>
-            <li>Práctica 1: Volkswagen</li>
-            <iframe src="entidad_relacion_volkswagen_182455.pdf" width="800" height="600" frameborder="0"></iframe>
-    </nav>
 
-    <script type="text/javascript">
-        var vsid = "si2530114a643a9";
-        (function () {
-            var vsjs = document.createElement('script');
-            vsjs.type = 'text/javascript';
-            vsjs.async = true;
-            vsjs.setAttribute('defer', 'defer');
-            vsjs.src = 'https://www.virtualspirits.com/vsa/chat.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(vsjs, s);
-        })();
-    </script>
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h1 class="section-title position-relative text-center mb-5">Clients Say About Our Famous Ice Cream</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
+                            <img class="img-fluid mx-auto mb-3" src="img/testimonial-1.jpg" alt="">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
+                            <img class="img-fluid mx-auto mb-3" src="img/testimonial-2.jpg" alt="">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
+                            <img class="img-fluid mx-auto mb-3" src="img/testimonial-3.jpg" alt="">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <a href="index.html" class="navbar-brand m-0">
+                        <h1 class="m-0 mt-n2 display-4 text-primary"><span class="text-secondary">i</span>CREAM</h1>
+                    </a>
+                </div>
+                <div class="col-12 mb-4">
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-secondary btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="col-12 mt-2 mb-4">
+                    <div class="row">
+                        <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
+                            <h5 class="font-weight-bold mb-2">Get In Touch</h5>
+                            <p class="mb-2">123 Street, New York, USA</p>
+                            <p class="mb-0">+012 345 67890</p>
+                        </div>
+                        <div class="col-sm-6 text-center text-sm-left">
+                            <h5 class="font-weight-bold mb-2">Opening Hours</h5>
+                            <p class="mb-2">Mon – Sat, 8AM – 5PM</p>
+                            <p class="mb-0">Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p class="m-0">&copy; <a href="#">Domain</a>. All Rights Reserved. Designed by <a href="https://htmlcodex.com">HTML Codex</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

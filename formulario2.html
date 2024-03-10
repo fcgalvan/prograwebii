@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+</head>
+<body>
+    <h1>Saludo</h1>
+    <form method="post" action="procesar_formulario.php">
+        <fieldset >
+            <legend>Información general</legend>
+            <table align="center">
+                <thead>
+                    <tr>
+                        <th><label for="nombre">Nombre</label></th>
+                        <th></th>
+                        <th></th>
+                        <th><label for="apellidop" >Apellido Paterno</label></th>
+                        <th></th>
+                        <th></th>
+                        <th><label for="apellidom">Apellido Materno</label></th>
+                        <th></th>
+                        <th></th>
+
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="nombre" id="nombre" maxlength="25" placeholder="Nombre" required ></td>
+                        <td></td>
+                        <td></td>
+
+                        <td><input type="text" name="apellidop" id="apellidop" maxlenght="25" placeholder="Apellido paterno" required></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="text" name="apellidom" id="apellidom" maxlenght="25" placeholder="Apellido materno" required></td>
+                        <td></td>
+                        <td></td>
+
+                    </tr>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th><label for="usuario">Nombre de usuario</label></th>
+                        <th></th>
+                        <th></th>
+                        <th><label for="contraseña">Contraseña:</label></th>
+                        <th></th>
+                        <th></th>
+                        <th><label for="fecha">Fecha de nacimiento:</label></th>
+                    </tr>    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="usuario" id="usuario" placeholder="Usuario"></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="password" name="contraseña" id="contraseña" placeholder="Contraseña"></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="date" name="fecha" id="fecha"></td>
+                        <td></td>
+                        <td></td>
+                    </tr>    
+            </table>
+            
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Datos de facturación</legend>
+            <table>
+                <thead>
+                    <tr>
+                        <th>País</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th>Ciudad</th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th><label for="calle">Calle</label></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> 
+                            <select size="5" multiple>
+                            <optgroup>
+                                <option value="1"> Mexico</option>
+                                <option value="2"> Canadá</option>
+                                <option value="3"> E.U.A.</option>
+                                <option value="4"> Colombia</option>
+                                <option value="5"> Argentina</option>
+                                <option value="6"> Brasil</option>
+                                
+                            </optgroup>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <select size="5" multiple>
+                            <optgroup>
+                                <option value="1"> San Luis Potosí</option>
+                                <option value="2"> Matehuala</option>
+                                <option value="3"> Ciudad Valles</option>
+                                <option value="4"> Rioverde</option>
+                                <option value="5"> Tamuin</option>
+                                <option value="6"> Ébano</option>
+                            </optgroup>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="text" name="calle" id="calle" placeholder="Calle"></td>
+                    </tr>
+                </tbody>
+            </table> 
+            <table>
+                <thead>
+                    <tr>
+                        <th><label for="numero_casa">Número de Casa</label></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th><label for="colonia">Colonia</label></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th><label for="email">E-mail</label></th>
+                    </tr>    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="numero_casa" id="numero_casa" placeholder="Número Exterior"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="text" name="colonia" id="colonia" placeholder="Colonia"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="email" name="email" id="email" placeholder="E-mail"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>    
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <th><label for="RFC">RFC</label></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th><label for="codigo_postal">C.P.</label></th>
+                    </tr>    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="text" name="RFC" id="RFC" placeholder="RFC"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><input type="text" name="codigo_postal" id="codigo_postal" placeholder="Código Postal"></td>
+                        <td></td>
+                        <td></td>
+                        
+                    </tr>    
+            </table>
+            <br>
+            <br>
+            <input type="submit" name="enviar" id="enviar" value="Enviar">
+            <br>
+            <br>
+            <input type="reset" name="borrar" id="borrar" value="Reestablecer">   
+
+        </fieldset>    
+    </form>
+</body>
+</html>
